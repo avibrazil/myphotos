@@ -1,0 +1,22 @@
+{% extends "gallery/base.html" %}
+
+{% block title %}Folders and Pictures under {{ year }}{% endblock %}
+
+{% block content %}
+<h1>Folders and Pictures under {{ year }}</h1>
+
+<h3>Folders</h3>
+<ul class="folders">
+{% for folder in fchildren %}
+	<li><a href="/gallery/f{{folder.id}}">{{folder.name}}</a>
+{% endfor %}
+</ul>
+
+<h3>Items</h3>
+<ul class="items">
+{% for item in ichildren %}
+	<li><a href="/gallery/i{{item.id}}">{{item.name}}</a>
+{% endfor %}
+</ul>
+
+{% endblock %}

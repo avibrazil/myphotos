@@ -1,0 +1,37 @@
+[
+  {
+    "model": "gallery.Properties",
+    "pk": 1,
+    "fields": {
+      "name": "scan.valid_extensions",
+      "value": "jpg,jpeg",
+      "description": "comma-separated list of file extensions that will be included in the database"
+    }
+  },
+  {
+    "model": "gallery.Properties",
+    "pk": 2,
+    "fields": {
+      "name": "scan.ignore_folders",
+      "value": ".picasaoriginals",
+      "description": "comma-separated list of directory names that will be ignored by the scanner"
+    }
+  },
+  {
+    "model": "gallery.Properties",
+    "pk": 3,
+    "fields": {
+      "name": "scan.valid_tags",
+      "value": "Exif.Canon.FileNumber\nExif.Canon.ImageType\nExif.Canon.ModelID\nExif.Canon.OwnerName\nExif.GPSInfo.GPSImgDirection\nExif.GPSInfo.GPSImgDirectionRef\nExif.GPSInfo.GPSTimeStamp\nExif.Image.Artist\nExif.Image.Copyright\nExif.Image.DateTime\nExif.Image.ImageDescription\nExif.Image.Make\nExif.Image.Model\nExif.Image.Orientation\nExif.Image.Rating\nExif.Image.RatingPercent\nExif.Image.Software\nExif.Photo.ApertureValue\nExif.Photo.BrightnessValue\nExif.Photo.CFAPattern\nExif.Photo.CameraOwnerName\nExif.Photo.ColorSpace\nExif.Photo.ComponentsConfiguration\nExif.Photo.CompressedBitsPerPixel\nExif.Photo.Contrast\nExif.Photo.CustomRendered\nExif.Photo.DateTimeDigitized\nExif.Photo.DateTimeOriginal\nExif.Photo.DigitalZoomRatio\nExif.Photo.ExifVersion\nExif.Photo.ExposureBiasValue\nExif.Photo.ExposureMode\nExif.Photo.ExposureProgram\nExif.Photo.ExposureTime\nExif.Photo.FNumber\nExif.Photo.FileSource\nExif.Photo.Flash\nExif.Photo.FlashpixVersion\nExif.Photo.FocalLength\nExif.Photo.FocalLengthIn35mmFilm\nExif.Photo.FocalPlaneResolutionUnit\nExif.Photo.FocalPlaneXResolution\nExif.Photo.FocalPlaneYResolution\nExif.Photo.GainControl\nExif.Photo.ISOSpeedRatings\nExif.Photo.ImageUniqueID\nExif.Photo.InteroperabilityTag\nExif.Photo.LightSource\nExif.Photo.MaxApertureValue\nExif.Photo.MeteringMode\nExif.Photo.PixelXDimension\nExif.Photo.PixelYDimension\nExif.Photo.Saturation\nExif.Photo.SceneCaptureType\nExif.Photo.SceneType\nExif.Photo.SensingMethod\nExif.Photo.SensitivityType\nExif.Photo.Sharpness\nExif.Photo.ShutterSpeedValue\nExif.Photo.SubSecTime\nExif.Photo.SubSecTimeDigitized\nExif.Photo.SubSecTimeOriginal\nExif.Photo.SubjectArea\nExif.Photo.SubjectDistanceRange\nExif.Photo.UserComment\nExif.Photo.WhiteBalance\nExif.Thumbnail.Compression\nExif.Thumbnail.DateTime\nExif.Thumbnail.JPEGInterchangeFormat\nExif.Thumbnail.JPEGInterchangeFormatLength\nExif.Thumbnail.Make\nExif.Thumbnail.Model\nExif.Thumbnail.Orientation\nExif.Thumbnail.ResolutionUnit\nExif.Thumbnail.XResolution\nExif.Thumbnail.YResolution\nIptc.Application2.Byline\nIptc.Application2.Caption\nIptc.Application2.Keywords\nIptc.Application2.RecordVersion\nIptc.Application2.Urgency\nXmp.MicrosoftPhoto.Rating\nXmp.dc.creator\nXmp.dc.description\nXmp.dc.subject\nXmp.dc.title\nXmp.lr.hierarchicalSubject\nXmp.xmp.ModifyDate\nXmp.xmp.Rating",
+      "description": "List of tags that should be included into the database, one per line."
+    }
+  },
+  {
+    "model": "gallery.Container",
+    "pk": 1,
+    "fields": {
+      "name": "Sample Photos",
+      "containerpath": "/home/aviram/Media/Photos/Viagens Nacionais/2013-07 Beach Park e Ceará"
+    }
+  }
+]
